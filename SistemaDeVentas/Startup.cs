@@ -68,6 +68,8 @@ namespace SistemaDeVentas
                 routes.MapRoute(
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
+
+                routes.MapAreaRoute("Users", "Users", "{controller=Users}/{action=Users}/{id?}");
             });
         }
     }
