@@ -14,7 +14,12 @@
   <ItemGroup>
     <Folder Include="Areas\Users\Data\" />
     <Folder Include="Areas\Users\Models\" />
-    <Folder Include="Areas\Users\Pages\Account\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="Areas\Users\Pages\_ViewStart.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
   </ItemGroup>
 
 </Project>
