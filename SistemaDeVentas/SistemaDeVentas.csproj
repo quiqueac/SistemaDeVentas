@@ -13,7 +13,6 @@
 
   <ItemGroup>
     <Folder Include="Areas\Users\Data\" />
-    <Folder Include="Areas\Users\Models\" />
   </ItemGroup>
 
   <ItemGroup>
