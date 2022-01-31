@@ -18,7 +18,7 @@ namespace SistemaDeVentas.Areas.Users.Pages.Account
         public InputModel Input { get; set; }
         public class InputModel : InputModelRegister
         {
-
+            public IFormFile AvatarImage { get; set; }
         }
     }
 }
